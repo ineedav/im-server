@@ -1,0 +1,18 @@
+language: go
+
+go:
+  - 1.4
+
+before_install:
+  - go get github.com/golang/tools/cmd/cover
+  - go get github.com/golang/lint/golint
+  - go get github.com/smartystreets/goconvey/convey
+  - go get github.com/smartystreets/assertions
+
+script:
+  - golint ./...
+  - govet ./...
+  - go test -cover ./...
+
+notifications:
+  slack: ineedav:Zm4A65n5vh7XkSxj4OE6zfNe
