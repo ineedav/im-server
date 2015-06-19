@@ -9,3 +9,9 @@ Instant-Messaging server written in Golang
 	* Slack
 	* Travis
 	* Zenhub
+
+* Go Tools
+	* Goimports
+	* Golint
+	* Govet
+	* Gofmt
