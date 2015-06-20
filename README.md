@@ -1,17 +1,37 @@
-## im-server
+## Instant-Messaging server written in Golang
 
 [![Build Status](https://travis-ci.org/ineedav/im-server.svg)](https://travis-ci.org/ineedav/im-server)
 [![加入讨论](https://ineedav.herokuapp.com/badge.svg)](https://ineedav.herokuapp.com/)
 
-Instant-Messaging server written in Golang
+***IOP***
 
-* Tools
+***Dependency Injection***
+
+***NO SINGLETON***
+
+
+### Tools
+
+* Discussion
 	* Slack
+
+* CI
 	* Travis
+
+* Issues management
 	* Zenhub
 
-* Go Tools
+* Editor plugins
 	* Goimports
 	* Golint
 	* Govet
 	* Gofmt
+
+### Dependencies
+	
+* Test
+	* GoConvey
+* Nosql
+	* Mgo
+* Transport
+	* Hprose
