@@ -35,3 +35,9 @@
 	* Mgo
 * Transport
 	* Hprose
+
+### Note
+
+This project aims to present a correct way(at least in my mind) in writing Go.
+
+Do not use it in production.
